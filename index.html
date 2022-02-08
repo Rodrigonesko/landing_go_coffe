@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Go Coffe Landing Page</title>
+</head>
+<body>
+    <section>
+        <div class="circle">
+
+        </div>
+        <header>
+            <a href=""><img src="imgs/Logo.png" class="logo" alt=""></a>
+            <div class="toggle" onclick="toggleMenu();">
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's new</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>A experiência</h2>
+                <h2><span>go coffe</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus mattis nisl, ac auctor diam. Morbi velit magna, tempor non odio vitae, hendrerit varius augue. Nunc id sem in diam molestie interdum nec eget lorem. Integer id tortor ac nisi pharetra vehicula. Phasellus aliquet a nulla sit amet elementum. Ut elit nunc, fringilla quis est nec, vulputate sagittis augue. Phasellus et tellus tincidunt, commodo enim vitae, pharetra enim. Sed vitae tempor felis, vel blandit nisl. Quisque sagittis lacinia dictum. Morbi egestas lacus a sagittis tristique. Cras sagittis ut enim ut fermentum.</p>
+                <a href="#">Saiba mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="imgs/avela.png" class="gocoffe" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="imgs/avela.png" alt="" onclick="imgSlider('imgs/avela.png'); changeCircleColor('#ECB881')"></li>
+            <li><img src="imgs/creamchips.png" alt="" onclick="imgSlider('imgs/creamchips.png'); changeCircleColor('#A28F7A')"></li>
+            <li><img src="imgs/natural.png" alt="" style="transform: scale(2.0);" onclick="imgSlider('imgs/natural.png'); changeCircleColor('#9E7851')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="imgs/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="imgs/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="imgs/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
